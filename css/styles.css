@@ -1,0 +1,61 @@
+/* styles.css */
+
+/* Base styles */
+/* Setting base styles for the body */
+body {
+    font-family: Arial, sans-serif; /* Setting font family */
+    background-color: #c5e6c2f9; /* Setting background color */
+    margin: 0; /* Removing default margin */
+    padding: 0; /* Removing default padding */
+}
+
+/* Navbar styles */
+/* Styling for the navigation bar */
+.navbar {
+    background-color: #333; /* Setting background color */
+    color: #fff; /* Setting text color */
+    padding: 10px 20px; /* Setting padding */
+    display: flex; /* Using flexbox for layout */
+    justify-content: space-between; /* Aligning items horizontally */
+    align-items: center; /* Aligning items vertically */
+}
+
+/* Styling for the navbar brand */
+.navbar-brand {
+    font-size: 1.5em; /* Setting font size */
+    text-decoration: none; /* Removing underline */
+    color: #fff; /* Setting text color */
+}
+
+/* Container styles */
+/* Styling for containers holding jokes and images */
+.joke-container, .image-container {
+    background-color: #ffffff; /* Setting background color */
+    border-radius: 10px; /* Adding border radius for rounded corners */
+    padding: 20px; /* Adding padding */
+    margin-top: 20px; /* Adding top margin */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding box shadow */
+    text-align: center; /* Centering text */
+}
+
+/* Styling for buttons inside image containers */
+.image-container button {
+    margin-top: 10px; /* Adding top margin */
+}
+
+/* Link container styles */
+/* Styling for containers holding links */
+.link-container {
+    margin-bottom: 20px; /* Adding bottom margin */
+    padding: 20px; /* Adding padding */
+    margin-top: 20px; /* Adding top margin */
+    text-align: center; /* Centering text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding box shadow */
+    background-color: #ffffff; /* Setting background color */
+}
+
+/* Styling for links inside link containers */
+.link {
+    display: block; /* Displaying links as block elements */
+    margin-bottom: 5px; /* Adding bottom margin */
+}

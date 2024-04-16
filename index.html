@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>2 APIs on work!</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="css/styles.css"> 
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <!-- Navbar brand -->
+        <a href="#" class="navbar-brand">2 APIs on work!</a>
+        <!-- Student info -->
+        <div id="student-info" class="student-info"></div>
+    </nav>
+    <!-- Container for Chuck Norris Joke -->
+    <div class="joke-container">
+        <!-- Title for Chuck Norris Joke -->
+        <h3>Chuck Norris Joke</h3>
+        <!-- Placeholder for Chuck Norris Joke -->
+        <p id="chuck-norris-joke">Loading...</p>
+        <!-- Button to fetch a new Chuck Norris Joke -->
+        <button onclick="fetchChuckNorrisJoke();">New joke!</button>
+    </div>
+    <!-- Container for Chuck Norris Jokes reference -->
+    <div class="link-container">
+        <!-- Title for Chuck Norris Jokes reference -->
+        <h3>Chuck Norris Jokes(Reference)</h3>
+        <!-- Link to Chuck Norris Jokes API -->
+        <a class="link" href="https://api.chucknorris.io/">https://api.chucknorris.io/</a>
+    </div>
+    <!-- Container for Random Image -->
+    <div class="image-container">
+        <!-- Title for Random Image -->
+        <h3>Random Image</h3>
+        <!-- Placeholder for Random Image -->
+        <div id="random-image"></div>
+        <!-- Button to fetch a Random Image -->
+        <button onclick="fetchRandomImage()">Get Random Image</button>
+    </div>
+    <!-- Container for Random Images reference -->
+    <div class="link-container">
+        <!-- Title for Random Images reference -->
+        <h3>Random Images(Reference)</h3>
+        <!-- Link to Random Images API -->
+        <a class="link" href="https://picsum.photos/images">https://picsum.photos/images</a>
+    </div>
+    <!-- Script tag to link to external JavaScript file -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
